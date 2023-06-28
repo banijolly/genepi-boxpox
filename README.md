@@ -9,7 +9,7 @@ genepi-boxpox is a tool developed for automating genome assembly and analysis of
 The tool takes in as input:<br>
 - A zip file (in .zip format) for paired-end short read sequencing data files (FASTQ files) of LSDV samples <br>
 - The sample sheet used for demultiplexing the sequencing run from BCL to FASTQ files (in .csv format)
-- A metadata file containing details of the samples (a tab separated text file). A sample metadata file ([Metadata_Sample.tsv](https://github.com/banijolly/genepi-boxpox/blob/main/Metadata_Sample.tsv)) is available in the repository. The header of the file (the first row) should remain the same. Second row of the sample metadata file contains examples of what values can be entered, this row can be deleted while adding new data. User can add their own data to the subsequent rows.
+- A metadata file containing details of the samples (a tab separated text file). A sample metadata file ([Metadata_Sample.tsv](https://github.com/banijolly/genepi-boxpox/blob/main/Metadata_Example.tsv)) is available in the repository. The header of the file (the first row) should remain the same. Second row of the sample metadata file contains examples of what values can be entered, this row can be deleted while adding new data. User can add their own data to the subsequent rows.
 
 The tool will output a summary report for the analysis, including:<br>
 - Detecting mutations<br>
